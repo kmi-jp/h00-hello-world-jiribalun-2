@@ -3,3 +3,5 @@ def test_output(script_runner):
     assert ret.success
     assert ret.stdout == "Hello world!\n"
     assert ret.stderr == ""
+
+# haha
